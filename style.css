@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+}
+
+#map-container {
+  width: 600px;
+}
+
+svg path {
+  fill: #d3d3d3;
+  stroke: white;
+  stroke-width: 1;
+  cursor: pointer;
+}
+
+svg path:hover {
+  fill: #6fa8dc;
+}
+
+#info-box {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
